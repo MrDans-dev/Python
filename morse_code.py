@@ -24,14 +24,10 @@ kod = {
     "W":"• — —",
     "X":"— • • —",
     "Y":"— • — —",
-    "Z":"— — • •"
+    "Z":"— — • •",
+    " ":"/"
 }
 s = input()
-a = s.replace(" ","")
-#slowo = []
-#for i in range(0 , len(a[o])):
-#    slowo.append(a[i])
-#    o=o+1
-for i in range(0, len(a)):
-    print(kod[a[i].upper()] ,end="")
-    print(" ",end='')
+for i in range(0, len(s)):
+    print(kod[s[i].upper()] ,end="")
+    print("\t",end='')
