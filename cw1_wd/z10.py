@@ -1,3 +1,3 @@
-list = ['Joker' , 'Nasza mała Polska' , 'Proxima' , 'Doktor Dolittle']
+list = ['Joker' , 'Avengers' , 'Iron Man' , 'Batman']
 list.sort()
 print(list)
