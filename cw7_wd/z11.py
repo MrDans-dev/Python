@@ -7,12 +7,10 @@ def wys(a,b,c):
     print("C",c)
 
 a = np.arange(3*4)
-b = np.arange(4*3)
-c = np.arange(2*6)
-wys(a,b,c)
+print(a)
 a= a.reshape(3,4)
-b = b.reshape(4,3)
-c = c.reshape(2,6)
+b = a.reshape(4,3)
+c = a.reshape(2,6)
 wys(a,b,c)
 a= a.flat
 b= b.flat
