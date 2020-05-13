@@ -3,6 +3,8 @@ Include
 Scripts
 Lib
 .vs
-dane.txt
-liczby.txt
 pyvenv.cfg
+*.rar
+/kolo
+/priv
+*.txt
