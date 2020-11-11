@@ -7,7 +7,7 @@ def get_info():
     ticker = bc.exchangerates.get_ticker()
     print("Hash Rate TH/s: ", stats.hash_rate/1000000000)
     print("Last Price PLN: ",ticker["PLN"].last)
-    print("Last Price $: ",ticker["USD"].last)
+    print("Last Price $: ", )
     print("Block Difficulty: ",stats.difficulty)
 
 while(1):
