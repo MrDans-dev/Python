@@ -1,4 +1,4 @@
-import FlyingAtom_Bitinfo as info
+import Bitinfo as info
 
 menu=0
 while menu != 3:
